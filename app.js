@@ -34,8 +34,6 @@ function actualizarListaAmigos(lista) {
     listaHTML.innerHTML = ""; //limpiar elementos en 'ul' antes de mostrar la lista de amigos
 
     for (i = 0; i < lista.length; i++) {
-        // let contenido = `<li>${lista[i]}</li>`;
-        // listaHTML.innerHTML=contenido;
         contenido = document.createElement('li');
         contenido.textContent = lista[i]; //contenido.innerText
         listaHTML.appendChild(contenido);
@@ -52,10 +50,11 @@ function sortearAmigo() {
 
         resultadoHTML.innerHTML = "";
 
-        //resultadoHTML.innerHTML=amigos[indice];
         let contenido = document.createElement('li');
         contenido.textContent = amigos[indice]; //contenido.innerText
         resultadoHTML.appendChild(contenido);
 
+        //Esta línea tambien puede usarse en vez del código anterior
+        //resultadoHTML.innerHTML=amigos[indice];
     }
 }
