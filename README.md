@@ -18,5 +18,5 @@ Se trata de una página web estática, donde se indica al usuario introducir alg
 Cuando se terminan de agregar la cantidad de nombres deseados, se puede realizar la selección de uno de estos nombres de manera aleatoria pulsando el botón **Sortear Amigo**.
 ***
 
-<p style="text-align: center"> <img src=capturas/SorteoAmigo1.png /></p> 
-<p style="text-align: center"> <img src=capturas/SorteoAmigo2.png /></p>
+<p align="center"> <img src=capturas/SorteoAmigo1.png /></p> 
+<p align="center"> <img src=capturas/SorteoAmigo2.png /></p>
